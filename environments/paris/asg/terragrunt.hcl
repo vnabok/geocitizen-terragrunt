@@ -37,7 +37,7 @@ inputs = {
     asg_max_size = 3
     asg_min_size = 1
 
-    vpc_id = "vpc-029acbc3d0d7865e2"
+    vpc_id = "vpc-id"
     tg_port = 8080
     tg_protocol = "HTTP"
 

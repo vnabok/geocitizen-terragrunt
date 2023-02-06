@@ -18,9 +18,9 @@ inputs = {
     name = "Geocitizen-alb"
     security_groups = [ dependency.security_group.outputs.security_group_id ]
     subnets = [
-        "subnet-0179fcc2c70064c3d",
-        "subnet-0aed48fc3f22727d7",
-        "subnet-0b2a71695ae4f4d7e"
+        "subnet-id",
+        "subnet-id",
+        "subnet-id"
     ]
     listener_protocol = "HTTP"
     listener_port = "8080"

@@ -8,7 +8,7 @@ terraform {
 
 inputs = {
     sg_name = "rds_pgsql"
-    vpc_id = "vpc-029acbc3d0d7865e2"
+    vpc_id = "vpc-id"
     sg_rules = {
         rule01 = {
             description = "PostgreSQL ingress"

@@ -1,5 +1,4 @@
 #!/bin/bash
-# Clone APP git repo
 apt-get update -y
 apt-get install -y openjdk-8-jdk
 apt-get install -y maven
@@ -12,7 +11,6 @@ sed -i 's/^\(referenceUrl\s*=\s*\).*$/referenceUrl\=\jdbc\:postgresql\:\/\/${rds
 mkdir /usr/share/tomcat9/webapps/
 mkdir /usr/share/tomcat9/logs/
 mvn install
-#cp target/citizen.war /usr/share/tomcat9/webapps/
-#/usr/share/tomcat9/bin/startup.sh
+cp target/citizen.war /usr/share/tomcat9/webapps/
 cp target/citizen.war /var/lib/tomcat9/webapps/
 /usr/share/tomcat9/bin/startup.sh
