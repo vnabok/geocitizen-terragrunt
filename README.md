@@ -14,7 +14,7 @@ This terraform code will deploy Geocitizen app (https://github.com/mentorchita/G
 1. Clone repo
 2. Optionaly change DB username/password
 3. Change variables in providers.tf and terragrunt files terragrunt.hcl inside environments dir
-4. Move to environments/<region> dir
+4. Move to environments/{region} dir
 5. run terragrunt plan/apply command
 ```
 terragrunt run-all apply
